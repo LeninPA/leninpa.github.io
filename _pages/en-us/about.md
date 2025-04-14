@@ -3,19 +3,18 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.fciencias.unam.mx/'>Faculty of Sciencies</a>, <a href='https://astronomia.unam.mx/'>Astronomy Institute</a>, <a href='https://www.tic.unam.mx/'>DGTIC</a>. lpavon {at} astro {dot} unam {dot} mx.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>University City, UNAM</p>
+    <p>Mexico City, Mexico</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -28,8 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Supercomputing Fellow at IA and DGTIC@UNAM. I am also a Teacher Assisstant at FCiencias@UNAM. Currently teaching an Advanced Seminar in Parallel Programming.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/multi-language-al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I love HPC almost as much as I love AI. I'm currently interested in the intersection of NLP and minoritised languages (with a focus in Náhuatl from Milpa Alta). Current undergrad thesis in progress.
