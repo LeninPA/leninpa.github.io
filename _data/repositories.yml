@@ -1,15 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - LeninPA
 
 repo_description_lines_max: 2
 
 github_repos:
-  - george-gca/multi-language-al-folio
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - LeninPA/math_applications
+  - LeninPA/supercomputing
+  - LeninPA/cl-2024-1-lab
+  - LeninPA/P6Anki
+  - Whoever-ThisIs/CoyoConsultas
