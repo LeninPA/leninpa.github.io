@@ -472,51 +472,16 @@ ninja.data = [{
           section: "Novidades",},{id: "news-began-working-as-a-ta-unam-for-miguel-ángel-pérez-de-león",
           title: 'Began working as a TA@UNAM for Miguel Ángel Pérez de León',
           description: "",
-          section: "Novidades",},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+          section: "Novidades",},{id: "projects-p6anki",
+          title: 'P6Anki',
+          description: "Anki deck for Minimal English",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/9_project/";
+              window.location.href = "/pt-br/projects/2_project/";
             },},{id: "projects-projeto-1",
           title: 'projeto 1',
           description: "com imagem de fundo",
           section: "Projetos",handler: () => {
               window.location.href = "/pt-br/projects/pt-br/1_project/";
-            },},{id: "projects-projeto-2",
-          title: 'projeto 2',
-          description: "um projeto com imagem de fundo e comentários do giscus",
-          section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/pt-br/2_project/";
-            },},{id: "projects-projeto-3-com-um-nome-bem-longo",
-          title: 'projeto 3 com um nome bem longo',
-          description: "um projeto que redireciona pra outro website",
-          section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/pt-br/3_project/";
-            },},{id: "projects-projeto-4",
-          title: 'projeto 4',
-          description: "outro sem imagem",
-          section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/pt-br/4_project/";
-            },},{id: "projects-projeto-5",
-          title: 'projeto 5',
-          description: "um projeto com imagem de fundo",
-          section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/pt-br/5_project/";
-            },},{id: "projects-projeto-6",
-          title: 'projeto 6',
-          description: "um projeto sem imagem",
-          section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/pt-br/6_project/";
             },},{
         id: 'social-email',
         title: 'Enviar um email',

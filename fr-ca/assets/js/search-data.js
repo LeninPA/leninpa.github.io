@@ -465,51 +465,16 @@ ninja.data = [{
           section: "actualités",},{id: "news-began-working-as-a-ta-unam-for-miguel-ángel-pérez-de-león",
           title: 'Began working as a TA@UNAM for Miguel Ángel Pérez de León',
           description: "",
-          section: "actualités",},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+          section: "actualités",},{id: "projects-p6anki",
+          title: 'P6Anki',
+          description: "Anki deck for Minimal English",
           section: "projets",handler: () => {
-              window.location.href = "/fr-ca/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "projets",handler: () => {
-              window.location.href = "/fr-ca/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "projets",handler: () => {
-              window.location.href = "/fr-ca/projects/9_project/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+              window.location.href = "/fr-ca/projects/2_project/";
+            },},{id: "projects-undergrad-thesis-at-the-interface-of-nsm-and-ai",
+          title: '(Undergrad Thesis) At the Interface of NSM and AI',
+          description: "A computational research with the NSM framework focused in minoritised languages",
           section: "projets",handler: () => {
               window.location.href = "/fr-ca/projects/en-us/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "projets",handler: () => {
-              window.location.href = "/fr-ca/projects/en-us/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "projets",handler: () => {
-              window.location.href = "/fr-ca/projects/en-us/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "projets",handler: () => {
-              window.location.href = "/fr-ca/projects/en-us/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "projets",handler: () => {
-              window.location.href = "/fr-ca/projects/en-us/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "projets",handler: () => {
-              window.location.href = "/fr-ca/projects/en-us/6_project/";
             },},{
         id: 'social-email',
         title: 'envoyer un courriel',
