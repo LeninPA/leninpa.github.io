@@ -451,16 +451,19 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/fr-ca/books/en-us/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "actualités",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-became-a-supercomputing-fellow-at-dgtic-unam",
+          title: 'Became a Supercomputing Fellow at DGTIC@UNAM',
           description: "",
           section: "actualités",handler: () => {
-              window.location.href = "/fr-ca/news/en-us/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/fr-ca/news/en-us/announcement_1/";
+            },},{id: "news-received-my-cédula-profesional-as-a-computer-technician-sparkles-smile",
+          title: 'Received my Cédula Profesional as a Computer Technician :sparkles: :smile:',
+          description: "",
+          section: "actualités",},{id: "news-began-working-as-a-ta-unam-for-dr-fittipaldi-and-dr-saraí",
+          title: 'Began working as a TA@UNAM for Dr. Fittipaldi and Dr. Saraí',
+          description: "",
+          section: "actualités",},{id: "news-began-working-as-a-ta-unam-for-miguel-ángel-pérez-de-león",
+          title: 'Began working as a TA@UNAM for Miguel Ángel Pérez de León',
           description: "",
           section: "actualités",},{id: "projects-project-7",
           title: 'project 7',
