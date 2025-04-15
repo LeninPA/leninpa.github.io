@@ -487,7 +487,7 @@ ninja.data = [{
         title: 'Enviar um email',
         section: 'Redes sociais',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%6C%70%61%76%6F%6E@%61%73%74%72%6F.%75%6E%61%6D.%6D%78", "_blank");
         },
       },{
         id: 'social-inspire',
