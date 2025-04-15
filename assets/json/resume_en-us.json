@@ -30,10 +30,131 @@
       "endDate": "Present",
       "summary": "Responsible of instructional design, evaluation and teaching to groups ranging from 6 students to 50 students.",
       "highlights": [
-        "Parallel Programming (Lab 2025-2)",
-        "Advanced Linear Algebra (TA 2025-2)",
-        "Advanced Probability (TA 2025-1)",
-        "Introduction to Probability (TA 2025-1)"
+        "Parallel Programming <b> Lab 2025-2 </b>",
+        "Advanced Linear Algebra <b> TA 2025-2 </b>",
+        "Advanced Probability <b> TA 2025-1 </b>",
+        "Introduction to Probability <b> TA 2025-1 </b>"
+      ]
+    },
+    {
+      "name": "Astronomy Institute and General Department for Information and Communication Technologies",
+      "position": "Supercomputing Fellow",
+      "startDate": "2023-08",
+      "endDate": "Present",
+      "summary": "High-Performance Computing intern in charge of implementing the researchers' code into the Atócatl cluster and into Grid UNAM.",
+      "highlights": [
+        "<b> Troubleshooting: Benchmarking and identifying points of failure on HPC clusters with AMD GPUs.</b>",
+        "<b> Optimization: Improved performance by 50% of a gaussian classifier for studying galaxy composition.</b>",
+        "<b> Continuous learning: Permanent training in HPC</b>",
+        "<b> Containers: </b> Used Apptainer and Conda to ensure reproducibility of AI/ML models running on the HPC cluster."
+      ]
+    },
+    {
+      "name": "Mediacenter (Language Lab) of ENP 6, UNAM",
+      "position": "Teaching Aide",
+      "startDate": "2021-08",
+      "endDate": "2021-12",
+      "summary": "Remote assistant to improve learning outcomes to students using the mediacenter libraries.",
+      "highlights": [
+        "<b> Python: </b>Implemented an Anki deck made of 347 notes using Python through Web Scrapping (Beautiful Soup)",
+        "<b> Web Development: </b>Design of an online information manager for students"
+      ]
+    },
+    {
+      "name": "General Department for Specialized Technical Studies (DGETE), UNAM",
+      "position": "Web developer",
+      "startDate": "2020-08",
+      "endDate": "2021-08",
+      "summary": "Web developer part of a 6-person team charged with redesigning the web system used by the whole department.",
+      "highlights": [
+        "<b> Laravel: </b>Total redesign and optimization of the frontend and backend of the DGETE website using Laravel and JavaScript as shown by the 35 commits and 7637 lines of code changed",
+        "<b> Databases: Maintenance and update of the database. Troubleshooting for database related issues.</b>",
+        "<b> Data Processing: </b>Preparation, cleaning, and capture of more than a 1000 entries to a database.",
+        "<b> Web Design: </b>Design and programming of accesible and user-friendly interfaces",
+        "<b> Teamwork: </b>Coordination and proactive collaboration with members of all project branches"
+      ]
+    },
+    {
+      "name": "Web Development Bootcamp of the ENP 6",
+      "position": "Instructor",
+      "startDate": "2021-04",
+      "endDate": "2021-06",
+      "summary": "Selected as instructor for the Relational Databases module and the Accessible Web Design module.",
+      "highlights": [
+        "<b> Relational Databases: </b>Teaching about the design and implementation of relational databases with MySQL to a group of 30 students",
+        "<b> Web Design: </b>Teaching about the design and implementation of responsive and accesible websites with CSS3 and Bootstrap 4 to a group of 30 students",
+        "<b> Instructional Design: </b>Writing of fundamental skills, syllabus, bibliography and references. Design and writing of assessment projects and rubrics improving graduation rates",
+        "<b> Educational Software: </b>Use of Moodle, Zoom, Facebook, Discord, and Minecraft for online assessment and teaching"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Faculty of Sciences, UNAM, México",
+      "location": "Coyoacán, México",
+      "url": "http://english.unam.mx/",
+      "area": "Scientific Computing",
+      "studyType": "BSc. in Applied Mathematics",
+      "startDate": "2021-08-10",
+      "endDate": "Present",
+      "score": "9.47",
+      "courses": [
+        "Parallel Programming",
+        "Computational Linguistics",
+        "Introduction to Complex Systems"
+      ]
+    },
+    {
+      "institution": "Escuela Nacional Preparatoria No. 6, UNAM, México",
+      "location": "Coyoacán, México",
+      "url": "http://www.ete.enp.unam.mx/CM.html",
+      "area": "Computing",
+      "studyType": "Technical Degree",
+      "startDate": "2019-08",
+      "endDate": "2021-05",
+      "score": "9.9",
+      "courses": [
+        "General Use Applications",
+        "Introduction to Computing",
+        "Structured Programming",
+        "Operating Systems",
+        "Solving Technical and Programming Problems",
+        "System analysis and design",
+        "Preventative and Corrective Computer Maintenance",
+        "Data-driven Programming",
+        "Event-driven Programming",
+        "Local Area Networks"
+      ]
+    },
+    {
+      "institution": "Escuela Nacional Preparatoria No. 6, UNAM, México",
+      "location": "Coyoacán, México",
+      "url": "http://www.ete.enp.unam.mx/EN.html",
+      "area": "Teaching of english as a Second Language",
+      "studyType": "Higher Technical Degree",
+      "startDate": "2020-08",
+      "endDate": "2021-05",
+      "score": "9.8",
+      "courses": [
+        "Introduction to English Teaching",
+        "Language Study",
+        "Classroom Management",
+        "Teaching Practice",
+        "Continuous Development and Improvement of the Teacher"
+      ]
+    },
+    {
+      "institution": "Escuela Nacional Preparatoria No. 6, UNAM, México",
+      "location": "Coyoacán, México",
+      "url": "https://www.prepa6.unam.mx/ENP6/_P6/",
+      "area": "Area 1. Physics, mathematics, and engineering",
+      "studyType": "High School",
+      "startDate": "2018-08",
+      "endDate": "2021-05",
+      "score": "9.47",
+      "courses": [
+        "Public Speaking",
+        "Selected Topics in Mathematics"
       ]
     }
   ],
@@ -44,168 +165,219 @@
       "position": "Co-founder",
       "startDate": "2024-04-20",
       "endDate": "Present",
-      "summary": "Organizer of several activities regardeing Probability, Statistics, Data Science, AI, and ML.",
+      "summary": "Organizer of several activities regarding Probability, Statistics, Data Science, AI, and ML.",
       "highlights": [
         "25 Year anniversary of the Linguistics Engineering Group, IIMAS",
         "Towards Interpretable Representation Learning for Physiological Signals"
       ]
     }
   ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": [
-        "Theory of Relativity"
-      ]
-    }
-  ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Travel and Accommodation Grant for KHIPU 2025",
+      "date": "2025-03-10",
+      "awarder": "KHIPU 2025",
+      "url": "https://khipu.ai/",
+      "summary": "Travel and accommodation grant for taking part in KHIPU 2025 at Santiago, Chile."
+    },
+    {
+      "title": "Travel and Accommodation Grant for the 9th Oaxacan School for Mathematics",
+      "date": "2024-02-06",
+      "awarder": "UNAM Oaxaca",
+      "url": "https://sites.google.com/im.unam.mx/9escuelaoaxaqueademates/",
+      "summary": "Travel and accommodation grant for making a presentation at UNAM Oaxaca."
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "The Teaching Portfolio as a Tool for Learning and Self-assessment",
+      "date": "2025-04",
+      "issuer": "Faculty of Medicine, UNAM",
+      "icon": "fa-solid fa-graduation-cap"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Toolkit for mental health promotion in teaching: guIAR for teaching",
+      "date": "2025-04",
+      "issuer": "CIGU and Faculty of Psychology, UNAM",
+      "url": "https://sites.google.com/view/guiar-para-docentes/inicio",
+      "icon": "fa-solid fa-graduation-cap"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "name": "Management of emotional hardships in the university classroom: guidelines for teachers",
+      "date": "2025-01",
+      "issuer": "CEIDE, UNAM",
+      "icon": "fa-solid fa-graduation-cap"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "name": "Skills development for management and leadership in education",
+      "date": "2025-01",
+      "issuer": "CEIDE, UNAM",
+      "icon": "fa-solid fa-graduation-cap"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "name": "Socio Cultural Evaluation of AI",
+      "date": "2025-03-11",
+      "issuer": "KHIPU 2025",
+      "url": "https://khipu.ai/",
+      "icon": "fa-solid fa-graduation-cap"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Intro to Machine Learning with Jax",
+      "date": "2025-03-10",
+      "issuer": "KHIPU 2025",
+      "url": "https://khipu.ai/",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+    {
+      "name": "Mexican NLP Summer School",
+      "date": "2024-06-14",
+      "issuer": "NAACL 2024",
+      "url": "https://ampln.github.io/escuelaverano2024/",
+      "icon": "fa-solid fa-laptop-code"
+    },
+    {
+      "name": "Training workshop for the use of the Grid UNAM platform",
+      "date": "2025-01-20",
+      "issuer": "DGTIC, UNAM",
+      "icon": "fa-solid fa-laptop-code"
+    },
+    {
+      "name": "MPI",
+      "date": "2024",
+      "issuer": "DGTIC, UNAM",
+      "icon": "fa-solid fa-laptop-code"
+    },
+    {
+      "name": "OpenMP",
+      "date": "2024",
+      "issuer": "DGTIC, UNAM",
+      "icon": "fa-solid fa-laptop-code"
+    },
+    {
+      "name": "Fortran",
+      "date": "2024",
+      "issuer": "DGTIC, UNAM",
+      "icon": "fa-solid fa-laptop-code"
+    },
+    {
+      "name": "Introduction to Scientific Programming Bootcamp",
+      "date": "2024",
+      "issuer": "Astronomy Institute, UNAM",
+      "icon": "fa-solid fa-laptop-code"
+    },
+    {
+      "name": "GNU/Linux systems administration",
+      "date": "2023",
+      "issuer": "DGTIC, UNAM",
+      "icon": "fa-solid fa-laptop-code"
+    },
+    {
+      "name": "C Programming",
+      "date": "2023",
+      "issuer": "DGTIC, UNAM",
+      "icon": "fa-solid fa-laptop-code"
+    },
+    {
+      "name": "TCP/IP Networks",
+      "date": "2023",
+      "issuer": "DGTIC, UNAM",
+      "icon": "fa-solid fa-laptop-code"
+    },
+    {
+      "name": "Computer Architecture",
+      "date": "2023",
+      "issuer": "Center for Complexity Science, UNAM",
+      "icon": "fa-solid fa-laptop-code"
+    },
+    {
+      "name": "Software Development Tools",
+      "date": "2023",
+      "issuer": "DGTIC, UNAM",
+      "icon": "fa-solid fa-laptop-code"
+    },
+    {
+      "name": "Python",
+      "date": "2023",
+      "issuer": "DGTIC, UNAM",
+      "icon": "fa-solid fa-laptop-code"
+    },
+    {
+      "name": "Shell Utilities and Programming",
+      "date": "2023",
+      "issuer": "DGTIC, UNAM",
+      "icon": "fa-solid fa-laptop-code"
+    },
+    {
+      "name": "Introduction to GNU/Linux",
+      "date": "2023",
+      "issuer": "DGTIC, UNAM",
+      "icon": "fa-solid fa-laptop-code"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "The MaNGA Dwarf Galaxy Sample (MaNDala): stellar profiles and gradients characterization",
+      "publisher": "The Astronomical Journal",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2504.02755",
+      "summary": "We derived radial profiles and inner/outer gradients of various stellar population (SP) properties for 124 bright dwarf galaxies, 107.53≤M∗/M⊙≤109.06, from the MaNDala sample, using integral field spectroscopy observations. Given the complex structure of dwarf galaxies, we used four different methods to derive SP radial profiles: two based on concentric elliptical rings, and two exploiting the spatially resolved data. For each method, we applied four approaches to calculate the inner (0≤R/Re≤1) and outer (0.75≤R/Re≤1.5) gradients of: luminosity- and mass-weighted age and stellar metallicity, dust attenuation, Dn4000 index, stellar mass and star formation rate (SFR) surface densities, and specific SFR. While the PSF has a minor impact on the SP gradients, the methodology for characterizing radial profiles significantly affects them. At fixed property, differences in inner gradients from concentric rings methods are ∼0.05-0.1 dex/Re, while outer gradients can reach 0.5-1 dex/Re, relative to the median of all gradients of that property, med({∇}i). Spatially resolved methods yield smaller differences, ≲0.1 dex/Re. For some SP gradients, e.g. ∇SFR, the dispersion among the methods is comparable to med({∇}i). While it is not possible to select a single preferred method for determining SP gradients, we suggest to use med({∇}i) for each SP property. The resulting median age and metallicity suggest that, overall, bright dwarfs experienced moderate inside-out formation, and significant early SF from low-metallicity gas with outward radial migration of old SPs. The derived SP gradients provide strong constraints on feedback mechanisms in dwarf galaxies."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Mathematics",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Linear Algebra",
+        "Probability"
       ]
+    },
+    {
+      "name": "Programming",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-hashtag"
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Spanish",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "C2",
+      "icon": ""
+    },
+    {
+      "language": "French",
+      "fluency": "A2/B1",
+      "icon": ""
+    },
+    {
+      "language": "Náhuatl",
+      "fluency": "A1",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "NLP",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Minoritised languages"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": [
-        "Quantum Teleportation",
-        "Quantum Cryptography"
-      ],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "P6Anki",
+      "summary": "Using the Natural Semantic Metalanguage and based on the work of David Bullock, I created an Anki deck designed to minimize the amount of time necessary to learn English.",
+      "highlights": [],
+      "startDate": "2021-10-01",
+      "endDate": "2021-10-18",
+      "url": "https://github.com/LeninPA/P6anki"
     }
   ]
 }
