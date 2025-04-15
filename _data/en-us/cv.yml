@@ -2,16 +2,14 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Lenin Pavón A.
     - name: Languages
-      value: English, German
+      value: Spanish (Native), English (C2), French (A2/B1), Náhuatl (A1)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: High School
       institution: University of Zurich, Zurich, Switzerland
       year: 1905
       description:
