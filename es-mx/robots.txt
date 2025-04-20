@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://leninpa.github.io/sitemap.xml

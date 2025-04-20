@@ -141,36 +141,36 @@ ninja.data = [{
           description: "com imagem de fundo",
           section: "Projetos",handler: () => {
               window.location.href = "/pt-br/projects/pt-br/1_project/";
-            },},{id: "teaching-probability-i-introduction-to-probability",
-          title: 'Probability I (Introduction to Probability)',
-          description: "Fall 2024 (2025-1)",
-          section: "",handler: () => {
-              window.location.href = "/pt-br/teaching/2_teaching/";
-            },},{id: "teaching-probability-ii-advanced-probability",
-          title: 'Probability II (Advanced Probability)',
-          description: "Spring 2025",
-          section: "",handler: () => {
-              window.location.href = "/pt-br/teaching/3_teaching/";
-            },},{id: "teaching-python-with-project-based-learning",
-          title: 'Python with Project Based Learning',
-          description: "Spring 2025",
-          section: "",handler: () => {
-              window.location.href = "/pt-br/teaching/4_teaching/";
-            },},{id: "teaching-linear-algebra-ii-advanced-linear-algebra",
-          title: 'Linear Algebra II (Advanced Linear Algebra)',
-          description: "Spring 2025",
-          section: "",handler: () => {
-              window.location.href = "/pt-br/teaching/5_teaching/";
-            },},{id: "teaching-parallel-programming",
-          title: 'Parallel Programming',
-          description: "Spring 2025",
-          section: "",handler: () => {
-              window.location.href = "/pt-br/teaching/6_teaching/";
             },},{id: "teaching-projeto-1",
           title: 'projeto 1',
           description: "com imagem de fundo",
           section: "",handler: () => {
               window.location.href = "/pt-br/teaching/pt-br/1_teaching/";
+            },},{id: "teaching-probability-i-introduction-to-probability",
+          title: 'Probability I (Introduction to Probability)',
+          description: "Fall 2024 (2025-1)",
+          section: "",handler: () => {
+              window.location.href = "/pt-br/teaching/pt-br/2_teaching/";
+            },},{id: "teaching-probability-ii-advanced-probability",
+          title: 'Probability II (Advanced Probability)',
+          description: "Spring 2025",
+          section: "",handler: () => {
+              window.location.href = "/pt-br/teaching/pt-br/3_teaching/";
+            },},{id: "teaching-python-with-project-based-learning",
+          title: 'Python with Project Based Learning',
+          description: "Spring 2025",
+          section: "",handler: () => {
+              window.location.href = "/pt-br/teaching/pt-br/4_teaching/";
+            },},{id: "teaching-linear-algebra-ii-advanced-linear-algebra",
+          title: 'Linear Algebra II (Advanced Linear Algebra)',
+          description: "Spring 2025",
+          section: "",handler: () => {
+              window.location.href = "/pt-br/teaching/pt-br/5_teaching/";
+            },},{id: "teaching-parallel-programming",
+          title: 'Parallel Programming',
+          description: "Spring 2025",
+          section: "",handler: () => {
+              window.location.href = "/pt-br/teaching/pt-br/6_teaching/";
             },},{
         id: 'social-email',
         title: 'Enviar um email',
@@ -179,11 +179,18 @@ ninja.data = [{
           window.open("mailto:%6C%70%61%76%6F%6E@%61%73%74%72%6F.%75%6E%61%6D.%6D%78", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Redes sociais',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/LeninPA", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Redes sociais',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/lenin-pavon", "_blank");
         },
       },{
         id: 'social-rss',
@@ -193,25 +200,18 @@ ninja.data = [{
           window.open("/feed.xml", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Redes sociais',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Redes sociais',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
-        },
-      },{
           id: 'lang-en-us',
           title: 'en-us',
           section: 'Idiomas',
           handler: () => {
             window.location.href = "" + updatedUrl;
+          },
+        },{
+          id: 'lang-es-mx',
+          title: 'es-mx',
+          section: 'Idiomas',
+          handler: () => {
+            window.location.href = "/es-mx" + updatedUrl;
           },
         },{
           id: 'lang-fr-ca',
