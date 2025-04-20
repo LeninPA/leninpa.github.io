@@ -141,6 +141,16 @@ ninja.data = [{
           description: "com imagem de fundo",
           section: "Projetos",handler: () => {
               window.location.href = "/pt-br/projects/pt-br/1_project/";
+            },},{id: "teaching-teaching-2",
+          title: 'Teaching 2',
+          description: "Anki deck for Minimal English",
+          section: "",handler: () => {
+              window.location.href = "/pt-br/teaching/2_teaching/";
+            },},{id: "teaching-projeto-1",
+          title: 'projeto 1',
+          description: "com imagem de fundo",
+          section: "",handler: () => {
+              window.location.href = "/pt-br/teaching/pt-br/1_teaching/";
             },},{
         id: 'social-email',
         title: 'Enviar um email',

@@ -36,7 +36,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A growing collection of some projects.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/projects/";
@@ -134,6 +134,16 @@ ninja.data = [{
           description: "A computational research with the NSM framework focused in minoritised languages",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/1_project/";
+            },},{id: "teaching-teaching-2",
+          title: 'Teaching 2',
+          description: "Anki deck for Minimal English",
+          section: "",handler: () => {
+              window.location.href = "/teaching/2_teaching/";
+            },},{id: "teaching-teaching-1",
+          title: 'Teaching 1',
+          description: "A computational research with the NSM framework focused in minoritised languages",
+          section: "",handler: () => {
+              window.location.href = "/teaching/en-us/1_teaching/";
             },},{
         id: 'social-email',
         title: 'Send an email',
