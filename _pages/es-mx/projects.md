@@ -1,24 +1,24 @@
 ---
-page_id: teaching
+page_id: projects
 layout: page
-permalink: /teaching/
-title: teaching
-description: Digital teaching portfolio
+title: proyectos
+permalink: /proyectos/
+description: Una colección creciente de algunos proyectos.
 nav: true
-nav_order: 6
+nav_order: 3
+display_categories: [work, fun]
+horizontal: false
 ---
 
-An attempt to create a teaching portfolio.
-
-<!-- pages/teaching.md -->
-<div class="teaching">
-  {% if site.enable_teaching_categories and page.display_categories %}
-    <!-- Display categorized teaching -->
+<!-- pages/projects.md -->
+<div class="projects">
+  {% if site.enable_project_categories and page.display_categories %}
+    <!-- Display categorized projects -->
     {% for category in page.display_categories %}
       <a id="{{ site.data[site.active_lang].strings.categories[category] }}" href=".#{{ site.data[site.active_lang].strings.categories[category] }}">
         <h2 class="category">{{ site.data[site.active_lang].strings.categories[category] }}</h2>
       </a>
-      {% assign categorized_projects = site.teaching | where: "category", category %}
+      {% assign categorized_projects = site.projects | where: "category", category %}
       {% assign sorted_projects = categorized_projects | sort: "importance" %}
       <!-- Generate cards for each project -->
       {% if page.horizontal %}
@@ -39,7 +39,7 @@ An attempt to create a teaching portfolio.
     {% endfor %}
   {% else %}
     <!-- Display projects without categories -->
-    {% assign sorted_projects = site.teaching | sort: "importance" %}
+    {% assign sorted_projects = site.projects | sort: "importance" %}
     <!-- Generate cards for each project -->
     {% if page.horizontal %}
       <div class="container">

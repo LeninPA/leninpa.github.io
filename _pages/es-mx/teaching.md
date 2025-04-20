@@ -1,14 +1,14 @@
 ---
 page_id: teaching
 layout: page
-permalink: /teaching/
-title: teaching
-description: Digital teaching portfolio
+permalink: /docencia/
+title: docencia
+description: Portafolio docente digital en formato libre
 nav: true
 nav_order: 6
 ---
 
-An attempt to create a teaching portfolio.
+Mi trabajo como docente a lo largo de los últimos años.
 
 <!-- pages/teaching.md -->
 <div class="teaching">
