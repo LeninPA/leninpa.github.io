@@ -141,11 +141,31 @@ ninja.data = [{
           description: "com imagem de fundo",
           section: "Projetos",handler: () => {
               window.location.href = "/pt-br/projects/pt-br/1_project/";
-            },},{id: "teaching-teaching-2",
-          title: 'Teaching 2',
-          description: "Anki deck for Minimal English",
+            },},{id: "teaching-probability-i-introduction-to-probability",
+          title: 'Probability I (Introduction to Probability)',
+          description: "Fall 2024 (2025-1)",
           section: "",handler: () => {
               window.location.href = "/pt-br/teaching/2_teaching/";
+            },},{id: "teaching-probability-ii-advanced-probability",
+          title: 'Probability II (Advanced Probability)',
+          description: "Spring 2025",
+          section: "",handler: () => {
+              window.location.href = "/pt-br/teaching/3_teaching/";
+            },},{id: "teaching-python-with-project-based-learning",
+          title: 'Python with Project Based Learning',
+          description: "Spring 2025",
+          section: "",handler: () => {
+              window.location.href = "/pt-br/teaching/4_teaching/";
+            },},{id: "teaching-linear-algebra-ii-advanced-linear-algebra",
+          title: 'Linear Algebra II (Advanced Linear Algebra)',
+          description: "Spring 2025",
+          section: "",handler: () => {
+              window.location.href = "/pt-br/teaching/5_teaching/";
+            },},{id: "teaching-parallel-programming",
+          title: 'Parallel Programming',
+          description: "Spring 2025",
+          section: "",handler: () => {
+              window.location.href = "/pt-br/teaching/6_teaching/";
             },},{id: "teaching-projeto-1",
           title: 'projeto 1',
           description: "com imagem de fundo",

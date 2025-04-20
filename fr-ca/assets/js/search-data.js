@@ -57,7 +57,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Digital teaching portfolio",
           section: "menu de navigation",
           handler: () => {
             window.location.href = "/fr-ca/teaching/";
@@ -134,14 +134,34 @@ ninja.data = [{
           description: "A computational research with the NSM framework focused in minoritised languages",
           section: "projets",handler: () => {
               window.location.href = "/fr-ca/projects/en-us/1_project/";
-            },},{id: "teaching-teaching-2",
-          title: 'Teaching 2',
-          description: "Anki deck for Minimal English",
+            },},{id: "teaching-probability-i-introduction-to-probability",
+          title: 'Probability I (Introduction to Probability)',
+          description: "Fall 2024 (2025-1)",
           section: "",handler: () => {
               window.location.href = "/fr-ca/teaching/2_teaching/";
-            },},{id: "teaching-teaching-1",
-          title: 'Teaching 1',
-          description: "A computational research with the NSM framework focused in minoritised languages",
+            },},{id: "teaching-probability-ii-advanced-probability",
+          title: 'Probability II (Advanced Probability)',
+          description: "Spring 2025",
+          section: "",handler: () => {
+              window.location.href = "/fr-ca/teaching/3_teaching/";
+            },},{id: "teaching-python-with-project-based-learning",
+          title: 'Python with Project Based Learning',
+          description: "Spring 2025",
+          section: "",handler: () => {
+              window.location.href = "/fr-ca/teaching/4_teaching/";
+            },},{id: "teaching-linear-algebra-ii-advanced-linear-algebra",
+          title: 'Linear Algebra II (Advanced Linear Algebra)',
+          description: "Spring 2025",
+          section: "",handler: () => {
+              window.location.href = "/fr-ca/teaching/5_teaching/";
+            },},{id: "teaching-parallel-programming",
+          title: 'Parallel Programming',
+          description: "Spring 2025",
+          section: "",handler: () => {
+              window.location.href = "/fr-ca/teaching/6_teaching/";
+            },},{id: "teaching-module-2-and-4-web-development-bootcamp",
+          title: 'Module 2 and 4. Web Development Bootcamp',
+          description: "Relational Databases and Accessible Web Design",
           section: "",handler: () => {
               window.location.href = "/fr-ca/teaching/en-us/1_teaching/";
             },},{
