@@ -1,8 +1,8 @@
 ---
-page_id: teaching_2
+page_id: teaching_
 layout: page
 title: Probability I (Introduction to Probability)
-description: Fall 2024 (2025-1)
+description: Spring Fall 202
 img: assets/img/6.jpg
 importance: 3
 ---
