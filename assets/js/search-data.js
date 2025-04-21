@@ -83,7 +83,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-is-the-sum-of-all-integers-a-negative-number",
+            },{id: "post-apuntes-de-diseño-instruccional",
+        
+          title: "Apuntes de diseño instruccional",
+        
+        description: "Notes of DCIM course from Faculty of Medicine",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/teaching-portfolio/";
+          
+        },
+      },{id: "post-is-the-sum-of-all-integers-a-negative-number",
         
           title: "Is the sum of all integers a negative number?",
         
