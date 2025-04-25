@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.fciencias.unam.mx/'>Faculty of Sciencies</a>, <a href='https://astronomia.unam.mx/'>Astronomy Institute</a>, <a href='https://www.tic.unam.mx/'>DGTIC</a>. lpavon {at} astro {dot} unam {dot} mx.
+subtitle: <a href='https://www.fciencias.unam.mx/'>Faculty of Sciences</a>, <a href='https://astronomia.unam.mx/'>Astronomy Institute</a>, <a href='https://www.tic.unam.mx/'>DGTIC</a>. lpavon {at} astro {dot} unam {dot} mx.
 
 profile:
   align: right
