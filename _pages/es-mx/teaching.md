@@ -1,7 +1,7 @@
 ---
 page_id: teaching
 layout: page
-permalink: /docencia/
+permalink: /teaching/
 title: docencia
 description: Portafolio docente digital en formato libre
 nav: true

@@ -1,7 +1,7 @@
 ---
 page_id: repositories
 layout: page
-permalink: /repositorios/
+permalink: /repositories/
 title: repositorios
 description: Repositorios y perfil de GitHub
 nav: true

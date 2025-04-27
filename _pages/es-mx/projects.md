@@ -2,7 +2,7 @@
 page_id: projects
 layout: page
 title: proyectos
-permalink: /proyectos/
+permalink: /projects/
 description: Una colección creciente de algunos proyectos.
 nav: true
 nav_order: 3

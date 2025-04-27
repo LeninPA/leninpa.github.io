@@ -265,8 +265,8 @@ display_categories: ["FC","Astro"] # these categories will be displayed on the f
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Pavón-Alvarez]
+  first_name: [Lenin, L.]
 
   style: apa
   locale: en
@@ -346,7 +346,7 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us","es-mx", "pt-br", "fr-ca"]
+languages: ["en-us","es-mx"]
 default_lang: "en-us"
 exclude_from_localization: ["assets"]
 lang_from_path: true
