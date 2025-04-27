@@ -32,21 +32,21 @@ ninja.data = [{
           description: "publicaciones categorizadas en orden cronológico inverso. Generadas por jekyll-scholar.",
           section: "Menú de navegación",
           handler: () => {
-            window.location.href = "/es-mx/publicaciones/";
+            window.location.href = "/es-mx/publications/";
           },
         },{id: "nav-proyectos",
           title: "proyectos",
           description: "Una colección creciente de algunos proyectos.",
           section: "Menú de navegación",
           handler: () => {
-            window.location.href = "/es-mx/proyectos/";
+            window.location.href = "/es-mx/projects/";
           },
         },{id: "nav-repositorios",
           title: "repositorios",
           description: "Repositorios y perfil de GitHub",
           section: "Menú de navegación",
           handler: () => {
-            window.location.href = "/es-mx/repositorios/";
+            window.location.href = "/es-mx/repositories/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -60,7 +60,7 @@ ninja.data = [{
           description: "Portafolio docente digital en formato libre",
           section: "Menú de navegación",
           handler: () => {
-            window.location.href = "/es-mx/docencia/";
+            window.location.href = "/es-mx/teaching/";
           },
         },{id: "nav-people",
           title: "people",
@@ -134,6 +134,9 @@ ninja.data = [{
           description: "",
           section: "Noticias",},{id: "news-inicio-como-ayudante-de-lab-con-miguel-ángel-pérez-de-león",
           title: 'Inicio como ayudante de lab con Miguel Ángel Pérez de León',
+          description: "",
+          section: "Noticias",},{id: "news-inicié-como-ayudante-con-el-dr-simental-dando-lineal-2",
+          title: 'Inicié como ayudante con el Dr. Simental, dando Lineal 2.',
           description: "",
           section: "Noticias",},{id: "projects-p6anki",
           title: 'P6Anki',
@@ -209,20 +212,6 @@ ninja.data = [{
           section: 'Lenguajes',
           handler: () => {
             window.location.href = "" + updatedUrl;
-          },
-        },{
-          id: 'lang-pt-br',
-          title: 'pt-br',
-          section: 'Lenguajes',
-          handler: () => {
-            window.location.href = "/pt-br" + updatedUrl;
-          },
-        },{
-          id: 'lang-fr-ca',
-          title: 'fr-ca',
-          section: 'Lenguajes',
-          handler: () => {
-            window.location.href = "/fr-ca" + updatedUrl;
           },
         },{
       id: 'light-theme',

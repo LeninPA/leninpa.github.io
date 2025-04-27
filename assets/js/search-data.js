@@ -135,6 +135,9 @@ ninja.data = [{
           section: "News",},{id: "news-began-working-as-a-ta-unam-for-miguel-ángel-pérez-de-león",
           title: 'Began working as a TA@UNAM for Miguel Ángel Pérez de León',
           description: "",
+          section: "News",},{id: "news-began-working-as-a-ta-unam-for-dr-simental",
+          title: 'Began working as a TA@UNAM for Dr. Simental',
+          description: "",
           section: "News",},{id: "projects-p6anki",
           title: 'P6Anki',
           description: "Anki deck for Minimal English",
@@ -209,20 +212,6 @@ ninja.data = [{
           section: 'Languages',
           handler: () => {
             window.location.href = "/es-mx" + updatedUrl;
-          },
-        },{
-          id: 'lang-pt-br',
-          title: 'pt-br',
-          section: 'Languages',
-          handler: () => {
-            window.location.href = "/pt-br" + updatedUrl;
-          },
-        },{
-          id: 'lang-fr-ca',
-          title: 'fr-ca',
-          section: 'Languages',
-          handler: () => {
-            window.location.href = "/fr-ca" + updatedUrl;
           },
         },{
       id: 'light-theme',
