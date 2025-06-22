@@ -62,13 +62,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation menu",
-          handler: () => {
-            window.location.href = "/people/";
-          },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
@@ -148,6 +141,11 @@ ninja.data = [{
           description: "A computational research with the NSM framework focused in minoritised languages",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/1_project/";
+            },},{id: "teaching-bash-contenedores-github-y-python-de-alto-rendimiento",
+          title: 'Bash, Contenedores, GitHub y Python de Alto Rendimiento',
+          description: "Taller Intersemestral Comunitario (Verano 2025)",
+          section: "",handler: () => {
+              window.location.href = "/teaching/2025-06-18-tic/";
             },},{id: "teaching-module-2-and-4-web-development-bootcamp",
           title: 'Module 2 and 4. Web Development Bootcamp',
           description: "Relational Databases and Accessible Web Design",
