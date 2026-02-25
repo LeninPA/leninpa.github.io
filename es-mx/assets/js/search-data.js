@@ -76,7 +76,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/es-mx/blog/";
               },
-            },{id: "post-apuntes-de-diseño-instruccional",
+            },{id: "post-rupa",
+        
+          title: "Rupa",
+        
+        description: "Separando la forma y el contenido de un texto en LaTeX",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/es-mx/blog/2026/intro-latex/";
+          
+        },
+      },{id: "post-apuntes-de-diseño-instruccional",
         
           title: "Apuntes de diseño instruccional",
         
