@@ -1,0 +1,101 @@
+---
+layout: distill
+title: Rupa
+description: Separando la forma y el contenido de un texto en LaTeX
+tags: LaTeX
+giscus_comments: false
+date: 2026-02-25
+featured: true
+mermaid:
+  enabled: false
+  zoomable: false
+code_diff: false
+map: false
+chart:
+  chartjs: false
+  echarts: false
+  vega_lite: false
+tikzjax: true
+typograms: false
+
+authors:
+  - name: Lenin Pavón
+    url: "https://leninpa.github.io/"
+    afiliación:
+      name: Facultad de Ciencias, UNAM
+
+# bibliography: 2018-12-22-distill.bib
+
+# Optionally, you can add a table of contents to your post.
+# NOTES:
+#   - make sure that TOC names match the actual section names
+#     for hyperlinks within the post to work correctly.
+#   - we may want to automate TOC generation in the future using
+#     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
+toc:
+  - name: ¿Para qué LaTeX?
+    # if a section has subsections, you can add them as follows:
+    # subsections:
+    #   - name: Example Child Subsection 1
+    #   - name: Example Child Subsection 2
+  - name: ¿Cómo usar LaTeX?
+  - name: Escribiendo palabras y oraciones (formato de texto)
+  - name: Escribiendo texto matemático
+  - name: Diseñando tablas
+  - name: Incluyendo imágenes y enlaces
+  - name: Referenciando trabajos y elementos con BibTex y Zotero
+  - name: Organizando el texto
+  - name: Diseñando y compilando libros con LaTeX
+
+---
+Linguistics, social sciences, and mathematics are sciences. Not only due to their study of tangible objects <d-footnote>Since they all study objects created by the emergent complexity of the human mind: language, the consequences of social interactions, and geometric-numeric abstractions (respectively.)</d-footnote>, but because of the rigor with which they guide themselves. However, when we allow ourselves to not be rigorous some curious results can occur. Here<d-footnote>I originally wrote this document for a friend of mine, which I think is better suited to exist in this format.</d-footnote>, we'll see one of these: the sum of all positive integers is $-\frac{1}{12}$. 
+
+## Intro to Infinity
+
+A series is the sum of a (numerable) infinite amount of terms, in particular we can sum infinitely $1$ and $-1$. Let's call this sum<d-footnote>In Spanish there is a fervent debate between calling the sum of many terms either a _suma_ or a _sumatoria_. Both are valid ways, since any language is made by its speakers (and writers).</d-footnote> $a$, then
+
+$$a=-1+1-1+\cdots$$
+
+At a first glance, one would think that such a sum does not exists, as it cannot be computed<d-footnote>And one would be right.</d-footnote> nonetheless we could try to use some high-school algebra to make the most out of the definition. For example:
+
+$$
+\begin{aligned}
+    a&=1-1+1-1+\cdots\\
+    1-a&=1-(1-1+1-1+\cdots)\\
+    &=1-1+1-1+\cdots\\
+    1-a&=a\\
+    1&=2a\\
+\end{aligned}
+$$
+
+We then conclude that the sum $a=\frac{1}{2}$.
+
+## An interesting series
+
+Math is built one result at a time. Hence, we can use this last result to deal with the new sum $b$
+
+$$b=1-2+3-4+\cdots$$
+
+Expanding upon $b$,
+
+$$\begin{aligned} 2b&=b+b\\ &=(1-2+3-4+\cdots)+(1-2+3-4+\cdots)\\ &=1+(-2+3-4+\cdots)+1-2+(3-4+\cdots)\\ &=\cancel{1}+(-2+3-4+\cdots)+\cancel{1}-\cancel{2}+(3-4+\cdots)\\ &=(-2+3-4+\cdots)+(3-4+5-\cdots)\\ &=(-2+3)+(3-4)+(-4+5)+\cdots\\ &=1-1+1-1+\cdots\\ &=\frac{1}{2}\end{aligned}$$
+
+We can see that $b=\frac{1}{4}$
+
+## Is the sum of the integers a negative number?
+
+To conclude, let us pose the next question: What would happen if we summed the 1, then the 2, and so on until we are left out of numbers? Let's name this sum $s$, defined as
+
+$$s=1+2+3+\cdots$$
+
+Then
+
+$$\begin{aligned}
+    s&=1+\textcolor{Red}{2}+3+\textcolor{Red}{4}+5+\textcolor{Red}{6}\cdots\\
+    4s&=\textcolor{Red}{4}+\textcolor{Red}{8}+\textcolor{Red}{12}\\
+    s-4s&=1-2+3-4+5-6\\
+    -3s&=\frac{1}{4}\\
+    s&=-\frac{1}{12}
+\end{aligned}$$
+
+In the end, when we "sum" all the positive integers we end up with a negative fraction! I leave it as an exercise to the reader to examine if this result means anything outside the paper (or this blog.)
